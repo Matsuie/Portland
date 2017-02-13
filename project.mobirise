@@ -183,18 +183,18 @@
           "_anchor": "header4-j",
           "_params": {
             "parallax": true,
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/proof%20of%20concept%20is%20everything%20%20master-2000x2055.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1500.jpg",
             "bgColor": "#eb6b56",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": true,
+            "overlay": false,
             "overlayOpacity": "0.9",
-            "overlayColor": "#d574e2",
+            "overlayColor": "#efefef",
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
