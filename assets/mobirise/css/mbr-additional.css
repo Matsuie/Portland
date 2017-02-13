@@ -1,7 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+
 
 
 
@@ -12,11 +16,11 @@ body,
 input,
 textarea,
 .mbr-company .list-group-text {
-  font-family: 'Lora', serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .mbr-footer-content li,
 .mbr-footer .mbr-contacts li {
-  font-family: 'Lora', serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .btn,
 .alert,
@@ -40,7 +44,7 @@ h6,
 .mbr-gallery-title,
 .mbr-map [data-state-details],
 .mbr-price {
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Droid Sans', sans-serif;
 }
 .mbr-footer-content h1,
 .mbr-footer .mbr-contacts h1,
@@ -54,7 +58,7 @@ h6,
 .mbr-footer .mbr-contacts p strong,
 .mbr-footer-content strong,
 .mbr-footer .mbr-contacts strong {
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Droid Sans', sans-serif;
 }
 .btn {
   border-radius: 1.6em;
@@ -73,14 +77,14 @@ h6,
   font-style: normal;
 }
 .mbr-author-name {
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Droid Sans', sans-serif;
 }
 .mbr-author-desc {
   font-family: 'Oswald', sans-serif;
   font-style: normal;
 }
 .mbr-plan-title {
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Droid Sans', sans-serif;
 }
 .mbr-plan-subtitle,
 .mbr-plan-price-desc {
@@ -94,7 +98,7 @@ h6,
   background-color: #a8789a !important;
 }
 .bg-info {
-  background-color: #3d8eb9 !important;
+  background-color: #d720be !important;
 }
 .bg-warning {
   background-color: #f3c649 !important;
@@ -143,8 +147,8 @@ h6,
   border-color: #e78d06 !important;
 }
 .btn-info {
-  background-color: #3d8eb9;
-  border-color: #3d8eb9;
+  background-color: #d720be;
+  border-color: #d720be;
   color: #ffffff;
 }
 .btn-info:hover,
@@ -153,14 +157,14 @@ h6,
 .btn-info:active,
 .btn-info.active {
   color: #ffffff;
-  background-color: #2a627f;
-  border-color: #2a627f;
+  background-color: #941683;
+  border-color: #941683;
 }
 .btn-info.disabled,
 .btn-info:disabled {
   color: #ffffff !important;
-  background-color: #2a627f !important;
-  border-color: #2a627f !important;
+  background-color: #941683 !important;
+  border-color: #941683 !important;
 }
 .btn-success {
   background-color: #a8789a;
@@ -264,8 +268,8 @@ h6,
 }
 .btn-info-outline {
   background: none;
-  border-color: #24536c;
-  color: #24536c;
+  border-color: #7e1370;
+  color: #7e1370;
 }
 .btn-info-outline:hover,
 .btn-info-outline:focus,
@@ -273,14 +277,14 @@ h6,
 .btn-info-outline:active,
 .btn-info-outline.active {
   color: #ffffff;
-  background-color: #3d8eb9;
-  border-color: #3d8eb9;
+  background-color: #d720be;
+  border-color: #d720be;
 }
 .btn-info-outline.disabled,
 .btn-info-outline:disabled {
   color: #ffffff !important;
-  background-color: #3d8eb9 !important;
-  border-color: #3d8eb9 !important;
+  background-color: #d720be !important;
+  border-color: #d720be !important;
 }
 .btn-success-outline {
   background: none;
@@ -349,7 +353,7 @@ h6,
   color: #a8789a !important;
 }
 .text-info {
-  color: #3d8eb9 !important;
+  color: #d720be !important;
 }
 .text-warning {
   color: #f3c649 !important;
@@ -361,7 +365,7 @@ h6,
   background-color: #a8789a;
 }
 .alert-info {
-  background-color: #3d8eb9;
+  background-color: #d720be;
 }
 .alert-warning {
   background-color: #f3c649;
@@ -407,7 +411,7 @@ h6,
 }
 .mbr-plan-header.bg-info .mbr-plan-subtitle,
 .mbr-plan-header.bg-info .mbr-plan-price-desc {
-  color: #98c5dd;
+  color: #f7ccf1;
 }
 .mbr-plan-header.bg-warning .mbr-plan-subtitle,
 .mbr-plan-header.bg-warning .mbr-plan-price-desc {
@@ -494,11 +498,24 @@ h6,
   font-family: 'Lora', serif;
 }
 #header4-j .mbr-section-title I {
-  color: #f7da64;
-  font-size: 30px;
+  color: #061780;
+  font-size: 32px;
+  font-family: 'Slabo 27px', serif;
 }
 #header4-j .mbr-section-lead {
   color: #f97352;
+}
+#header4-j .mbr-section-title DIV {
+  color: #f7da64;
+  font-size: 14px;
+  font-family: 'Noto Sans', sans-serif;
+}
+#header4-j .mbr-section-title SPAN {
+  font-size: 22px;
+  color: #1f69ba;
+}
+#header1-s .mbr-section-title {
+  color: #f7da64;
 }
 #features3-o P {
   color: #2b0680;
