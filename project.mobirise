@@ -187,11 +187,11 @@
             "showArrow": true,
             "bgImage": "@PROJECT_PATH@/assets/images/proof%20of%20concept%20is%20everything%20%20master-2000x2055.png",
             "bgColor": "#eb6b56",
-            "bgColorRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": true,
+            "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": "0.9",
             "overlayColor": "#d574e2",
